@@ -1,0 +1,138 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /* //first section */
+
+    .logo img {
+        float: left;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .main-nav {
+        float: right;
+        list-style: none;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .main-nav li {
+        display: inline-block;
+    }
+
+    .main-nav li a {
+        color: black;
+        text-decoration: none;
+        padding: 5px 20px;
+        font-size: 15px;
+    }
+
+    .main-nav .active a {
+        color: #cb3362;
+    }
+
+    .row {
+        max-width: 940px;
+        margin: auto;
+    }
+
+    /* //second section */
+
+    .main-view img {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .left {
+        position: absolute;
+        left: 68%;
+        top: 60%;
+        width: 150px;
+        height: 150px;
+        background-color: #c8c10d;
+        border-radius: 50%;
+    }
+
+    .right {
+        position: absolute;
+        left: 69%;
+        top: 58.5%;
+        width: 150px;
+        height: 150px;
+        background-color: #cb3362;
+        border-radius: 50%;
+        opacity: 0.9;
+    }
+
+    .right a {
+        position: absolute;
+        left: 12%;
+        top: 27%;
+        color: white;
+        text-decoration: none;
+        background: none;
+        font-size: 150%;
+    }
+
+    /* //third section */
+
+    .content {
+        float: left;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .content h1 {
+        color: #7A6666;
+        padding-bottom: 20px;
+    }
+
+    .content h2 {
+        color: #cb3362;
+        padding-bottom: 20px;
+    }
+
+    .content p, a {
+        color: #7A6666;
+        padding-bottom: 20px;
+    }
+
+    .content-img {
+        float: right;
+    }
+
+    /* //fourth section */
+
+    .footer-nav {
+        list-style: none;
+        text-align: center;
+    }
+
+    .footer-nav li {
+        display: inline-block;
+    }
+
+    .footer-nav li {
+        font-size: small;
+        color: white;
+        padding: 5%;
+    }
+
+    .footer-nav li img {
+        padding-bottom: 15%;
+    }
+
+    /* // color */
+
+    .light {
+        background-color: #eeebec;
+    }
+
+    .lighter {
+        background-color: #ece4ec;
+    }
+
+    #footer {
+        background-color: #c8c10d;
+    }
